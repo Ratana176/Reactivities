@@ -1,23 +1,40 @@
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Domain;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
+using Persistence;
 
 namespace API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     [Produces("application/json")]
-    public class ValueController : ControllerBase
+    public class ValuesController : ControllerBase
     {
-        private readonly ILogger<ValueController> _logger;
-        public ValueController(ILogger<ValueController> logger)
+        private readonly ILogger<ValuesController> _logger;
+        private readonly DataContext _context;
+
+        public ValuesController(DataContext context, ILogger<ValuesController> logger)
         {
+            _context = context;
             _logger = logger;
         }
         [HttpGet]
-        public ActionResult<string> Get()
+        public async Task<ActionResult<IEnumerable<Value>>> Get()
         {
-            return "Test Ok";
+            var values = await _context.values.ToListAsync();
+            return Ok(values);
+        }
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult<IEnumerable<Value>>> Get (int id)
+        {
+            var values = await _context.values.SingleOrDefaultAsync(c => c.Id == id);
+            return Ok(values);
         }
 
         /// <summary>
