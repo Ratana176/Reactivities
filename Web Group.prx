@@ -207,13 +207,13 @@
       <ParentID>17</ParentID>
       <TaskType>true</TaskType>
       <TaskCondidat>false</TaskCondidat>
-      <TaskMilstones>true</TaskMilstones>
+      <TaskMilstones>false</TaskMilstones>
       <TaskKey>99</TaskKey>
       <SimilarTaskKey>0</SimilarTaskKey>
       <TaskName>lack of document</TaskName>
       <TaskBDate>11/22/2019</TaskBDate>
       <TaskEDate>11/22/2019</TaskEDate>
-      <TaskDuration>0</TaskDuration>
+      <TaskDuration>1</TaskDuration>
       <TaskDurationUnit>days</TaskDurationUnit>
       <TaskStatusKey>0</TaskStatusKey>
       <TaskPeopleRelationKeys />
@@ -235,9 +235,9 @@
       <TaskKey>18</TaskKey>
       <SimilarTaskKey>0</SimilarTaskKey>
       <TaskName>Financing Phase</TaskName>
-      <TaskBDate>11/21/2019</TaskBDate>
+      <TaskBDate>11/22/2019</TaskBDate>
       <TaskEDate>2/28/2020</TaskEDate>
-      <TaskDuration>72</TaskDuration>
+      <TaskDuration>69</TaskDuration>
       <TaskDurationUnit>days</TaskDurationUnit>
       <TaskColor>-16777216</TaskColor>
       <TaskStatusKey>0</TaskStatusKey>
@@ -259,9 +259,9 @@
       <TaskKey>30</TaskKey>
       <SimilarTaskKey>0</SimilarTaskKey>
       <TaskName>Cost on developer's salary</TaskName>
-      <TaskBDate>12/20/2019</TaskBDate>
+      <TaskBDate>11/22/2019</TaskBDate>
       <TaskEDate>2/28/2020</TaskEDate>
-      <TaskDuration>51</TaskDuration>
+      <TaskDuration>69</TaskDuration>
       <TaskDurationUnit>days</TaskDurationUnit>
       <TaskStatusKey>0</TaskStatusKey>
       <TaskPredecessor />
@@ -279,13 +279,13 @@
       <ParentID>18</ParentID>
       <TaskType>true</TaskType>
       <TaskCondidat>false</TaskCondidat>
-      <TaskMilstones>true</TaskMilstones>
+      <TaskMilstones>false</TaskMilstones>
       <TaskKey>31</TaskKey>
       <SimilarTaskKey>0</SimilarTaskKey>
       <TaskName>Cost on Hardware ( Computer, Printer, Server, ...)</TaskName>
-      <TaskBDate>11/21/2019</TaskBDate>
-      <TaskEDate>11/21/2019</TaskEDate>
-      <TaskDuration>0</TaskDuration>
+      <TaskBDate>11/22/2019</TaskBDate>
+      <TaskEDate>11/22/2019</TaskEDate>
+      <TaskDuration>1</TaskDuration>
       <TaskDurationUnit>days</TaskDurationUnit>
       <TaskStatusKey>0</TaskStatusKey>
       <TaskPredecessor />
@@ -307,8 +307,8 @@
       <TaskKey>32</TaskKey>
       <SimilarTaskKey>0</SimilarTaskKey>
       <TaskName>Cost on Software tools (Web Hosting, Windows, IDE)</TaskName>
-      <TaskBDate>11/28/2019</TaskBDate>
-      <TaskEDate>11/28/2019</TaskEDate>
+      <TaskBDate>2/28/2020</TaskBDate>
+      <TaskEDate>2/28/2020</TaskEDate>
       <TaskDuration>1</TaskDuration>
       <TaskDurationUnit>days</TaskDurationUnit>
       <TaskStatusKey>0</TaskStatusKey>
@@ -327,13 +327,13 @@
       <ParentID>18</ParentID>
       <TaskType>true</TaskType>
       <TaskCondidat>false</TaskCondidat>
-      <TaskMilstones>true</TaskMilstones>
+      <TaskMilstones>false</TaskMilstones>
       <TaskKey>75</TaskKey>
       <SimilarTaskKey>0</SimilarTaskKey>
       <TaskName>Finance</TaskName>
-      <TaskBDate>11/21/2019</TaskBDate>
-      <TaskEDate>11/21/2019</TaskEDate>
-      <TaskDuration>0</TaskDuration>
+      <TaskBDate>11/22/2019</TaskBDate>
+      <TaskEDate>11/22/2019</TaskEDate>
+      <TaskDuration>1</TaskDuration>
       <TaskDurationUnit>days</TaskDurationUnit>
       <TaskStatusKey>0</TaskStatusKey>
       <TaskPredecessor />
@@ -445,9 +445,9 @@
       <TaskKey>20</TaskKey>
       <SimilarTaskKey>0</SimilarTaskKey>
       <TaskName>Estimating Phase</TaskName>
-      <TaskBDate>11/27/2019</TaskBDate>
+      <TaskBDate>11/26/2019</TaskBDate>
       <TaskEDate>11/29/2019</TaskEDate>
-      <TaskDuration>3</TaskDuration>
+      <TaskDuration>4</TaskDuration>
       <TaskDurationUnit>days</TaskDurationUnit>
       <TaskColor>-16777216</TaskColor>
       <TaskStatusKey>0</TaskStatusKey>
@@ -470,8 +470,8 @@
       <TaskKey>33</TaskKey>
       <SimilarTaskKey>0</SimilarTaskKey>
       <TaskName>Analysist for 5 days</TaskName>
-      <TaskBDate>11/28/2019</TaskBDate>
-      <TaskEDate>11/28/2019</TaskEDate>
+      <TaskBDate>11/26/2019</TaskBDate>
+      <TaskEDate>11/26/2019</TaskEDate>
       <TaskDuration>1</TaskDuration>
       <TaskDurationUnit>days</TaskDurationUnit>
       <TaskStatusKey>0</TaskStatusKey>
@@ -493,11 +493,12 @@
       <TaskKey>34</TaskKey>
       <SimilarTaskKey>0</SimilarTaskKey>
       <TaskName>Research for 5 days</TaskName>
-      <TaskBDate>11/29/2019</TaskBDate>
+      <TaskBDate>11/28/2019</TaskBDate>
       <TaskEDate>11/29/2019</TaskEDate>
-      <TaskDuration>1</TaskDuration>
+      <TaskDuration>2</TaskDuration>
       <TaskDurationUnit>days</TaskDurationUnit>
       <TaskStatusKey>0</TaskStatusKey>
+      <TaskPercentDone>0</TaskPercentDone>
       <TaskPredecessor />
       <TaskLeadTime />
       <TaskPosition>20</TaskPosition>
@@ -516,8 +517,8 @@
       <TaskKey>35</TaskKey>
       <SimilarTaskKey>0</SimilarTaskKey>
       <TaskName>Design Mockup for 5 days</TaskName>
-      <TaskBDate>11/28/2019</TaskBDate>
-      <TaskEDate>11/28/2019</TaskEDate>
+      <TaskBDate>11/27/2019</TaskBDate>
+      <TaskEDate>11/27/2019</TaskEDate>
       <TaskDuration>1</TaskDuration>
       <TaskDurationUnit>days</TaskDurationUnit>
       <TaskStatusKey>0</TaskStatusKey>
@@ -539,8 +540,8 @@
       <TaskKey>36</TaskKey>
       <SimilarTaskKey>0</SimilarTaskKey>
       <TaskName>Development for 3 months</TaskName>
-      <TaskBDate>11/28/2019</TaskBDate>
-      <TaskEDate>11/28/2019</TaskEDate>
+      <TaskBDate>11/27/2019</TaskBDate>
+      <TaskEDate>11/27/2019</TaskEDate>
       <TaskDuration>1</TaskDuration>
       <TaskDurationUnit>days</TaskDurationUnit>
       <TaskStatusKey>0</TaskStatusKey>
@@ -562,8 +563,8 @@
       <TaskKey>38</TaskKey>
       <SimilarTaskKey>0</SimilarTaskKey>
       <TaskName>Testing for 11 days</TaskName>
-      <TaskBDate>11/28/2019</TaskBDate>
-      <TaskEDate>11/28/2019</TaskEDate>
+      <TaskBDate>11/27/2019</TaskBDate>
+      <TaskEDate>11/27/2019</TaskEDate>
       <TaskDuration>1</TaskDuration>
       <TaskDurationUnit>days</TaskDurationUnit>
       <TaskStatusKey>0</TaskStatusKey>
@@ -585,8 +586,8 @@
       <TaskKey>39</TaskKey>
       <SimilarTaskKey>0</SimilarTaskKey>
       <TaskName>Design Database for 8 days</TaskName>
-      <TaskBDate>11/28/2019</TaskBDate>
-      <TaskEDate>11/28/2019</TaskEDate>
+      <TaskBDate>11/27/2019</TaskBDate>
+      <TaskEDate>11/27/2019</TaskEDate>
       <TaskDuration>1</TaskDuration>
       <TaskDurationUnit>days</TaskDurationUnit>
       <TaskStatusKey>0</TaskStatusKey>
@@ -608,8 +609,8 @@
       <TaskKey>68</TaskKey>
       <SimilarTaskKey>0</SimilarTaskKey>
       <TaskName>Review Task</TaskName>
-      <TaskBDate>11/28/2019</TaskBDate>
-      <TaskEDate>11/28/2019</TaskEDate>
+      <TaskBDate>11/27/2019</TaskBDate>
+      <TaskEDate>11/27/2019</TaskEDate>
       <TaskDuration>1</TaskDuration>
       <TaskDurationUnit>days</TaskDurationUnit>
       <TaskStatusKey>0</TaskStatusKey>
@@ -631,8 +632,8 @@
       <TaskKey>90</TaskKey>
       <SimilarTaskKey>0</SimilarTaskKey>
       <TaskName>Estimating Project</TaskName>
-      <TaskBDate>11/27/2019</TaskBDate>
-      <TaskEDate>11/27/2019</TaskEDate>
+      <TaskBDate>11/26/2019</TaskBDate>
+      <TaskEDate>11/26/2019</TaskEDate>
       <TaskDuration>1</TaskDuration>
       <TaskDurationUnit>days</TaskDurationUnit>
       <TaskStatusKey>0</TaskStatusKey>
@@ -863,13 +864,13 @@
       <ParentID>14</ParentID>
       <TaskType>true</TaskType>
       <TaskCondidat>false</TaskCondidat>
-      <TaskMilstones>true</TaskMilstones>
+      <TaskMilstones>false</TaskMilstones>
       <TaskKey>98</TaskKey>
       <SimilarTaskKey>0</SimilarTaskKey>
       <TaskName>lack of document</TaskName>
-      <TaskBDate>12/17/2019</TaskBDate>
-      <TaskEDate>12/17/2019</TaskEDate>
-      <TaskDuration>0</TaskDuration>
+      <TaskBDate>11/28/2019</TaskBDate>
+      <TaskEDate>11/28/2019</TaskEDate>
+      <TaskDuration>1</TaskDuration>
       <TaskDurationUnit>days</TaskDurationUnit>
       <TaskStatusKey>0</TaskStatusKey>
       <TaskPeopleRelationKeys />
@@ -984,9 +985,9 @@
       <TaskKey>6</TaskKey>
       <SimilarTaskKey>0</SimilarTaskKey>
       <TaskName>Development Phase</TaskName>
-      <TaskBDate>12/20/2019</TaskBDate>
+      <TaskBDate>12/9/2019</TaskBDate>
       <TaskEDate>1/9/2020</TaskEDate>
-      <TaskDuration>15</TaskDuration>
+      <TaskDuration>22</TaskDuration>
       <TaskDurationUnit>days</TaskDurationUnit>
       <TaskColor>-16777216</TaskColor>
       <TaskStatusKey>0</TaskStatusKey>
@@ -1008,9 +1009,9 @@
       <TaskKey>45</TaskKey>
       <SimilarTaskKey>0</SimilarTaskKey>
       <TaskName>Develop Core module</TaskName>
-      <TaskBDate>12/20/2019</TaskBDate>
-      <TaskEDate>1/2/2020</TaskEDate>
-      <TaskDuration>10</TaskDuration>
+      <TaskBDate>12/9/2019</TaskBDate>
+      <TaskEDate>1/1/2020</TaskEDate>
+      <TaskDuration>17</TaskDuration>
       <TaskDurationUnit>days</TaskDurationUnit>
       <TaskColor>-16777216</TaskColor>
       <TaskStatusKey>0</TaskStatusKey>
@@ -1033,8 +1034,8 @@
       <TaskKey>46</TaskKey>
       <SimilarTaskKey>0</SimilarTaskKey>
       <TaskName>Develop MVC Pattern</TaskName>
-      <TaskBDate>1/3/2020</TaskBDate>
-      <TaskEDate>1/7/2020</TaskEDate>
+      <TaskBDate>1/2/2020</TaskBDate>
+      <TaskEDate>1/6/2020</TaskEDate>
       <TaskDuration>3</TaskDuration>
       <TaskDurationUnit>days</TaskDurationUnit>
       <TaskStatusKey>0</TaskStatusKey>
@@ -1057,9 +1058,9 @@
       <TaskKey>71</TaskKey>
       <SimilarTaskKey>0</SimilarTaskKey>
       <TaskName>Review Task</TaskName>
-      <TaskBDate>1/8/2020</TaskBDate>
+      <TaskBDate>1/2/2020</TaskBDate>
       <TaskEDate>1/9/2020</TaskEDate>
-      <TaskDuration>2</TaskDuration>
+      <TaskDuration>5</TaskDuration>
       <TaskDurationUnit>days</TaskDurationUnit>
       <TaskStatusKey>0</TaskStatusKey>
       <TaskLink>pks:|Link|68</TaskLink>
@@ -1082,15 +1083,15 @@
       <SimilarTaskKey>0</SimilarTaskKey>
       <TaskName>Coding Phase</TaskName>
       <TaskBDate>12/9/2019</TaskBDate>
-      <TaskEDate>2/7/2020</TaskEDate>
-      <TaskDuration>45</TaskDuration>
+      <TaskEDate>2/14/2020</TaskEDate>
+      <TaskDuration>48</TaskDuration>
       <TaskDurationUnit>days</TaskDurationUnit>
       <TaskColor>-16777216</TaskColor>
       <TaskStatusKey>0</TaskStatusKey>
       <TaskPercentDone>0</TaskPercentDone>
       <TaskPosition>45</TaskPosition>
       <TaskSubPosition>0</TaskSubPosition>
-      <TaskCost>400</TaskCost>
+      <TaskCost>390</TaskCost>
     </Task>
     <Task>
       <TaskStatus>Not Started</TaskStatus>
@@ -1106,8 +1107,8 @@
       <SimilarTaskKey>0</SimilarTaskKey>
       <TaskName>Using PHP Language for Backend</TaskName>
       <TaskBDate>12/9/2019</TaskBDate>
-      <TaskEDate>2/7/2020</TaskEDate>
-      <TaskDuration>45</TaskDuration>
+      <TaskEDate>2/14/2020</TaskEDate>
+      <TaskDuration>48</TaskDuration>
       <TaskDurationUnit>days</TaskDurationUnit>
       <TaskStatusKey>0</TaskStatusKey>
       <TaskPredecessor />
@@ -1129,8 +1130,8 @@
       <SimilarTaskKey>0</SimilarTaskKey>
       <TaskName>Using Sql to Query</TaskName>
       <TaskBDate>12/9/2019</TaskBDate>
-      <TaskEDate>2/7/2020</TaskEDate>
-      <TaskDuration>45</TaskDuration>
+      <TaskEDate>2/14/2020</TaskEDate>
+      <TaskDuration>48</TaskDuration>
       <TaskDurationUnit>days</TaskDurationUnit>
       <TaskStatusKey>0</TaskStatusKey>
       <TaskPredecessor />
@@ -1152,8 +1153,8 @@
       <SimilarTaskKey>0</SimilarTaskKey>
       <TaskName>Using HTML CSS JQuery for Frontend</TaskName>
       <TaskBDate>12/9/2019</TaskBDate>
-      <TaskEDate>2/7/2020</TaskEDate>
-      <TaskDuration>45</TaskDuration>
+      <TaskEDate>2/14/2020</TaskEDate>
+      <TaskDuration>48</TaskDuration>
       <TaskDurationUnit>days</TaskDurationUnit>
       <TaskStatusKey>0</TaskStatusKey>
       <TaskPredecessor />
@@ -1174,8 +1175,8 @@
       <TaskKey>79</TaskKey>
       <SimilarTaskKey>0</SimilarTaskKey>
       <TaskName>HomeController</TaskName>
-      <TaskBDate>12/9/2019</TaskBDate>
-      <TaskEDate>12/10/2019</TaskEDate>
+      <TaskBDate>1/8/2020</TaskBDate>
+      <TaskEDate>1/9/2020</TaskEDate>
       <TaskDuration>2</TaskDuration>
       <TaskDurationUnit>days</TaskDurationUnit>
       <TaskStatusKey>0</TaskStatusKey>
@@ -1198,8 +1199,8 @@
       <TaskKey>82</TaskKey>
       <SimilarTaskKey>0</SimilarTaskKey>
       <TaskName>Dynamic Client Post</TaskName>
-      <TaskBDate>12/11/2019</TaskBDate>
-      <TaskEDate>12/12/2019</TaskEDate>
+      <TaskBDate>1/10/2020</TaskBDate>
+      <TaskEDate>1/13/2020</TaskEDate>
       <TaskDuration>2</TaskDuration>
       <TaskDurationUnit>days</TaskDurationUnit>
       <TaskStatusKey>0</TaskStatusKey>
@@ -1207,7 +1208,7 @@
       <TaskLeadTime />
       <TaskPosition>50</TaskPosition>
       <TaskSubPosition>0</TaskSubPosition>
-      <TaskCost>30</TaskCost>
+      <TaskCost>20</TaskCost>
     </Task>
     <Task>
       <TaskStatus>Not Started</TaskStatus>
@@ -1222,16 +1223,16 @@
       <TaskKey>83</TaskKey>
       <SimilarTaskKey>0</SimilarTaskKey>
       <TaskName>Dynamic Client Page</TaskName>
-      <TaskBDate>12/13/2019</TaskBDate>
-      <TaskEDate>12/16/2019</TaskEDate>
-      <TaskDuration>2</TaskDuration>
+      <TaskBDate>1/14/2020</TaskBDate>
+      <TaskEDate>1/16/2020</TaskEDate>
+      <TaskDuration>3</TaskDuration>
       <TaskDurationUnit>days</TaskDurationUnit>
       <TaskStatusKey>0</TaskStatusKey>
       <TaskPredecessor />
       <TaskLeadTime />
       <TaskPosition>51</TaskPosition>
       <TaskSubPosition>0</TaskSubPosition>
-      <TaskCost>30</TaskCost>
+      <TaskCost>20</TaskCost>
     </Task>
     <Task>
       <TaskStatus>Not Started</TaskStatus>
@@ -1246,8 +1247,8 @@
       <TaskKey>85</TaskKey>
       <SimilarTaskKey>0</SimilarTaskKey>
       <TaskName>DashboardController</TaskName>
-      <TaskBDate>12/11/2019</TaskBDate>
-      <TaskEDate>12/24/2019</TaskEDate>
+      <TaskBDate>1/8/2020</TaskBDate>
+      <TaskEDate>1/21/2020</TaskEDate>
       <TaskDuration>10</TaskDuration>
       <TaskDurationUnit>days</TaskDurationUnit>
       <TaskStatusKey>0</TaskStatusKey>
@@ -1255,7 +1256,7 @@
       <TaskLeadTime />
       <TaskPosition>52</TaskPosition>
       <TaskSubPosition>0</TaskSubPosition>
-      <TaskCost>30</TaskCost>
+      <TaskCost>60</TaskCost>
     </Task>
     <Task>
       <TaskStatus>Not Started</TaskStatus>
@@ -1270,16 +1271,16 @@
       <TaskKey>87</TaskKey>
       <SimilarTaskKey>0</SimilarTaskKey>
       <TaskName>CategoryController</TaskName>
-      <TaskBDate>12/11/2019</TaskBDate>
-      <TaskEDate>12/17/2019</TaskEDate>
-      <TaskDuration>5</TaskDuration>
+      <TaskBDate>1/8/2020</TaskBDate>
+      <TaskEDate>1/13/2020</TaskEDate>
+      <TaskDuration>4</TaskDuration>
       <TaskDurationUnit>days</TaskDurationUnit>
       <TaskStatusKey>0</TaskStatusKey>
       <TaskPredecessor />
       <TaskLeadTime />
       <TaskPosition>53</TaskPosition>
       <TaskSubPosition>0</TaskSubPosition>
-      <TaskCost>30</TaskCost>
+      <TaskCost>10</TaskCost>
     </Task>
     <Task>
       <TaskStatus>Not Started</TaskStatus>
@@ -1294,9 +1295,9 @@
       <TaskKey>76</TaskKey>
       <SimilarTaskKey>0</SimilarTaskKey>
       <TaskName>Page Controller</TaskName>
-      <TaskBDate>12/11/2019</TaskBDate>
-      <TaskEDate>12/17/2019</TaskEDate>
-      <TaskDuration>5</TaskDuration>
+      <TaskBDate>1/8/2020</TaskBDate>
+      <TaskEDate>1/15/2020</TaskEDate>
+      <TaskDuration>6</TaskDuration>
       <TaskDurationUnit>days</TaskDurationUnit>
       <TaskStatusKey>0</TaskStatusKey>
       <TaskPredecessor />
@@ -1304,6 +1305,152 @@
       <TaskPosition>54</TaskPosition>
       <TaskSubPosition>0</TaskSubPosition>
       <TaskCost>30</TaskCost>
+    </Task>
+    <Task>
+      <TaskStatus>Not Started</TaskStatus>
+      <TaskPriority>Low</TaskPriority>
+      <Updating>false</Updating>
+      <Index>0</Index>
+      <ProjectID>00000000-0000-0000-0000-000000000000</ProjectID>
+      <ParentID>50</ParentID>
+      <TaskType>true</TaskType>
+      <TaskCondidat>false</TaskCondidat>
+      <TaskMilstones>false</TaskMilstones>
+      <TaskKey>81</TaskKey>
+      <SimilarTaskKey>0</SimilarTaskKey>
+      <TaskName>PostController</TaskName>
+      <TaskBDate>1/16/2020</TaskBDate>
+      <TaskEDate>1/21/2020</TaskEDate>
+      <TaskDuration>4</TaskDuration>
+      <TaskDurationUnit>days</TaskDurationUnit>
+      <TaskStatusKey>0</TaskStatusKey>
+      <TaskPredecessor />
+      <TaskLeadTime />
+      <TaskPosition>55</TaskPosition>
+      <TaskSubPosition>0</TaskSubPosition>
+      <TaskCost>30</TaskCost>
+    </Task>
+    <Task>
+      <TaskStatus>Not Started</TaskStatus>
+      <TaskPriority>Low</TaskPriority>
+      <Updating>false</Updating>
+      <Index>0</Index>
+      <ProjectID>00000000-0000-0000-0000-000000000000</ProjectID>
+      <ParentID>50</ParentID>
+      <TaskType>true</TaskType>
+      <TaskCondidat>true</TaskCondidat>
+      <TaskMilstones>false</TaskMilstones>
+      <TaskKey>100</TaskKey>
+      <SimilarTaskKey>0</SimilarTaskKey>
+      <TaskName>Comment Page</TaskName>
+      <TaskBDate>1/22/2020</TaskBDate>
+      <TaskEDate>1/24/2020</TaskEDate>
+      <TaskDuration>3</TaskDuration>
+      <TaskDurationUnit>days</TaskDurationUnit>
+      <TaskColor>-16777216</TaskColor>
+      <TaskStatusKey>0</TaskStatusKey>
+      <TaskPredecessor />
+      <TaskLeadTime />
+      <TaskPosition>56</TaskPosition>
+      <TaskSubPosition>0</TaskSubPosition>
+      <TaskCost>30</TaskCost>
+    </Task>
+    <Task>
+      <TaskStatus>Not Started</TaskStatus>
+      <TaskPriority>Low</TaskPriority>
+      <Updating>false</Updating>
+      <Index>0</Index>
+      <ProjectID>00000000-0000-0000-0000-000000000000</ProjectID>
+      <ParentID>50</ParentID>
+      <TaskType>true</TaskType>
+      <TaskCondidat>false</TaskCondidat>
+      <TaskMilstones>false</TaskMilstones>
+      <TaskKey>80</TaskKey>
+      <SimilarTaskKey>0</SimilarTaskKey>
+      <TaskName>Admin Menu Builder</TaskName>
+      <TaskBDate>1/14/2020</TaskBDate>
+      <TaskEDate>1/22/2020</TaskEDate>
+      <TaskDuration>7</TaskDuration>
+      <TaskDurationUnit>days</TaskDurationUnit>
+      <TaskStatusKey>0</TaskStatusKey>
+      <TaskPredecessor />
+      <TaskLeadTime />
+      <TaskPosition>57</TaskPosition>
+      <TaskSubPosition>0</TaskSubPosition>
+      <TaskCost>60</TaskCost>
+    </Task>
+    <Task>
+      <TaskStatus>Not Started</TaskStatus>
+      <TaskPriority>Low</TaskPriority>
+      <Updating>false</Updating>
+      <Index>0</Index>
+      <ProjectID>00000000-0000-0000-0000-000000000000</ProjectID>
+      <ParentID>50</ParentID>
+      <TaskType>true</TaskType>
+      <TaskCondidat>false</TaskCondidat>
+      <TaskMilstones>false</TaskMilstones>
+      <TaskKey>86</TaskKey>
+      <SimilarTaskKey>0</SimilarTaskKey>
+      <TaskName>UserController</TaskName>
+      <TaskBDate>1/22/2020</TaskBDate>
+      <TaskEDate>2/5/2020</TaskEDate>
+      <TaskDuration>11</TaskDuration>
+      <TaskDurationUnit>days</TaskDurationUnit>
+      <TaskStatusKey>0</TaskStatusKey>
+      <TaskPredecessor />
+      <TaskLeadTime />
+      <TaskPosition>58</TaskPosition>
+      <TaskSubPosition>0</TaskSubPosition>
+      <TaskCost>30</TaskCost>
+    </Task>
+    <Task>
+      <TaskStatus>Not Started</TaskStatus>
+      <TaskPriority>Low</TaskPriority>
+      <Updating>false</Updating>
+      <Index>0</Index>
+      <ProjectID>00000000-0000-0000-0000-000000000000</ProjectID>
+      <ParentID>50</ParentID>
+      <TaskType>true</TaskType>
+      <TaskCondidat>false</TaskCondidat>
+      <TaskMilstones>false</TaskMilstones>
+      <TaskKey>84</TaskKey>
+      <SimilarTaskKey>0</SimilarTaskKey>
+      <TaskName>Settings</TaskName>
+      <TaskBDate>1/23/2020</TaskBDate>
+      <TaskEDate>2/3/2020</TaskEDate>
+      <TaskDuration>8</TaskDuration>
+      <TaskDurationUnit>days</TaskDurationUnit>
+      <TaskStatusKey>0</TaskStatusKey>
+      <TaskPredecessor />
+      <TaskLeadTime />
+      <TaskPosition>59</TaskPosition>
+      <TaskSubPosition>0</TaskSubPosition>
+      <TaskCost>30</TaskCost>
+    </Task>
+    <Task>
+      <TaskStatus>Not Started</TaskStatus>
+      <TaskPriority>Low</TaskPriority>
+      <Updating>false</Updating>
+      <Index>0</Index>
+      <ProjectID>00000000-0000-0000-0000-000000000000</ProjectID>
+      <ParentID>50</ParentID>
+      <TaskType>true</TaskType>
+      <TaskCondidat>true</TaskCondidat>
+      <TaskMilstones>false</TaskMilstones>
+      <TaskKey>72</TaskKey>
+      <SimilarTaskKey>0</SimilarTaskKey>
+      <TaskName>Review Task</TaskName>
+      <TaskBDate>1/13/2020</TaskBDate>
+      <TaskEDate>2/14/2020</TaskEDate>
+      <TaskDuration>25</TaskDuration>
+      <TaskDurationUnit>days</TaskDurationUnit>
+      <TaskStatusKey>0</TaskStatusKey>
+      <TaskLink>pks:|Link|68</TaskLink>
+      <TaskPredecessor />
+      <TaskLeadTime />
+      <TaskPosition>60</TaskPosition>
+      <TaskSubPosition>0</TaskSubPosition>
+      <TaskCost>50</TaskCost>
     </Task>
     <Task>
       <TaskStatus>Not Started</TaskStatus>
@@ -1325,30 +1472,6 @@
       <TaskStatusKey>0</TaskStatusKey>
       <TaskPosition>61</TaskPosition>
       <TaskSubPosition>0</TaskSubPosition>
-    </Task>
-    <Task>
-      <TaskStatus>Not Started</TaskStatus>
-      <TaskPriority>Low</TaskPriority>
-      <Updating>false</Updating>
-      <Index>0</Index>
-      <ProjectID>00000000-0000-0000-0000-000000000000</ProjectID>
-      <ParentID>50</ParentID>
-      <TaskType>true</TaskType>
-      <TaskCondidat>false</TaskCondidat>
-      <TaskMilstones>false</TaskMilstones>
-      <TaskKey>81</TaskKey>
-      <SimilarTaskKey>0</SimilarTaskKey>
-      <TaskName>PostController</TaskName>
-      <TaskBDate>12/18/2019</TaskBDate>
-      <TaskEDate>12/24/2019</TaskEDate>
-      <TaskDuration>5</TaskDuration>
-      <TaskDurationUnit>days</TaskDurationUnit>
-      <TaskStatusKey>0</TaskStatusKey>
-      <TaskPredecessor />
-      <TaskLeadTime />
-      <TaskPosition>55</TaskPosition>
-      <TaskSubPosition>0</TaskSubPosition>
-      <TaskCost>30</TaskCost>
     </Task>
     <Task>
       <TaskStatus>Not Started</TaskStatus>
@@ -1391,31 +1514,6 @@
       <TaskStatusKey>0</TaskStatusKey>
       <TaskPosition>63</TaskPosition>
       <TaskSubPosition>0</TaskSubPosition>
-    </Task>
-    <Task>
-      <TaskStatus>Not Started</TaskStatus>
-      <TaskPriority>Low</TaskPriority>
-      <Updating>false</Updating>
-      <Index>0</Index>
-      <ProjectID>00000000-0000-0000-0000-000000000000</ProjectID>
-      <ParentID>50</ParentID>
-      <TaskType>true</TaskType>
-      <TaskCondidat>true</TaskCondidat>
-      <TaskMilstones>false</TaskMilstones>
-      <TaskKey>100</TaskKey>
-      <SimilarTaskKey>0</SimilarTaskKey>
-      <TaskName>Comment Page</TaskName>
-      <TaskBDate>12/13/2019</TaskBDate>
-      <TaskEDate>12/18/2019</TaskEDate>
-      <TaskDuration>4</TaskDuration>
-      <TaskDurationUnit>days</TaskDurationUnit>
-      <TaskColor>-16777216</TaskColor>
-      <TaskStatusKey>0</TaskStatusKey>
-      <TaskPredecessor />
-      <TaskLeadTime />
-      <TaskPosition>56</TaskPosition>
-      <TaskSubPosition>0</TaskSubPosition>
-      <TaskCost>30</TaskCost>
     </Task>
     <Task>
       <TaskStatus>Not Started</TaskStatus>
@@ -1566,30 +1664,6 @@
     </Task>
     <Task>
       <TaskStatus>Not Started</TaskStatus>
-      <TaskPriority>Low</TaskPriority>
-      <Updating>false</Updating>
-      <Index>0</Index>
-      <ProjectID>00000000-0000-0000-0000-000000000000</ProjectID>
-      <ParentID>50</ParentID>
-      <TaskType>true</TaskType>
-      <TaskCondidat>false</TaskCondidat>
-      <TaskMilstones>false</TaskMilstones>
-      <TaskKey>80</TaskKey>
-      <SimilarTaskKey>0</SimilarTaskKey>
-      <TaskName>Admin Menu Builder</TaskName>
-      <TaskBDate>12/18/2019</TaskBDate>
-      <TaskEDate>12/26/2019</TaskEDate>
-      <TaskDuration>7</TaskDuration>
-      <TaskDurationUnit>days</TaskDurationUnit>
-      <TaskStatusKey>0</TaskStatusKey>
-      <TaskPredecessor />
-      <TaskLeadTime />
-      <TaskPosition>57</TaskPosition>
-      <TaskSubPosition>0</TaskSubPosition>
-      <TaskCost>60</TaskCost>
-    </Task>
-    <Task>
-      <TaskStatus>Not Started</TaskStatus>
       <Updating>false</Updating>
       <Index>0</Index>
       <ProjectID>00000000-0000-0000-0000-000000000000</ProjectID>
@@ -1611,79 +1685,6 @@
     </Task>
     <Task>
       <TaskStatus>Not Started</TaskStatus>
-      <TaskPriority>Low</TaskPriority>
-      <Updating>false</Updating>
-      <Index>0</Index>
-      <ProjectID>00000000-0000-0000-0000-000000000000</ProjectID>
-      <ParentID>50</ParentID>
-      <TaskType>true</TaskType>
-      <TaskCondidat>false</TaskCondidat>
-      <TaskMilstones>false</TaskMilstones>
-      <TaskKey>86</TaskKey>
-      <SimilarTaskKey>0</SimilarTaskKey>
-      <TaskName>UserController</TaskName>
-      <TaskBDate>12/17/2019</TaskBDate>
-      <TaskEDate>12/30/2019</TaskEDate>
-      <TaskDuration>10</TaskDuration>
-      <TaskDurationUnit>days</TaskDurationUnit>
-      <TaskStatusKey>0</TaskStatusKey>
-      <TaskPredecessor />
-      <TaskLeadTime />
-      <TaskPosition>58</TaskPosition>
-      <TaskSubPosition>0</TaskSubPosition>
-      <TaskCost>30</TaskCost>
-    </Task>
-    <Task>
-      <TaskStatus>Not Started</TaskStatus>
-      <TaskPriority>Low</TaskPriority>
-      <Updating>false</Updating>
-      <Index>0</Index>
-      <ProjectID>00000000-0000-0000-0000-000000000000</ProjectID>
-      <ParentID>50</ParentID>
-      <TaskType>true</TaskType>
-      <TaskCondidat>false</TaskCondidat>
-      <TaskMilstones>false</TaskMilstones>
-      <TaskKey>84</TaskKey>
-      <SimilarTaskKey>0</SimilarTaskKey>
-      <TaskName>Settings</TaskName>
-      <TaskBDate>12/27/2019</TaskBDate>
-      <TaskEDate>1/7/2020</TaskEDate>
-      <TaskDuration>8</TaskDuration>
-      <TaskDurationUnit>days</TaskDurationUnit>
-      <TaskStatusKey>0</TaskStatusKey>
-      <TaskPredecessor />
-      <TaskLeadTime />
-      <TaskPosition>59</TaskPosition>
-      <TaskSubPosition>0</TaskSubPosition>
-      <TaskCost>30</TaskCost>
-    </Task>
-    <Task>
-      <TaskStatus>Not Started</TaskStatus>
-      <TaskPriority>Low</TaskPriority>
-      <Updating>false</Updating>
-      <Index>0</Index>
-      <ProjectID>00000000-0000-0000-0000-000000000000</ProjectID>
-      <ParentID>50</ParentID>
-      <TaskType>true</TaskType>
-      <TaskCondidat>true</TaskCondidat>
-      <TaskMilstones>false</TaskMilstones>
-      <TaskKey>72</TaskKey>
-      <SimilarTaskKey>0</SimilarTaskKey>
-      <TaskName>Review Task</TaskName>
-      <TaskBDate>12/10/2019</TaskBDate>
-      <TaskEDate>1/8/2020</TaskEDate>
-      <TaskDuration>22</TaskDuration>
-      <TaskDurationUnit>days</TaskDurationUnit>
-      <TaskStatusKey>0</TaskStatusKey>
-      <TaskLink>pks:|Link|68</TaskLink>
-      <TaskPredecessor />
-      <TaskLeadTime />
-      <TaskPosition>60</TaskPosition>
-      <TaskSubPosition>0</TaskSubPosition>
-      <TaskCost>50</TaskCost>
-    </Task>
-    <Task>
-      <TaskStatus>Not Started</TaskStatus>
       <Updating>false</Updating>
       <Index>0</Index>
       <ProjectID>00000000-0000-0000-0000-000000000000</ProjectID>
@@ -1694,8 +1695,8 @@
       <TaskKey>22</TaskKey>
       <SimilarTaskKey>0</SimilarTaskKey>
       <TaskName>Installation Phase</TaskName>
-      <TaskBDate>1/9/2020</TaskBDate>
-      <TaskEDate>1/17/2020</TaskEDate>
+      <TaskBDate>2/13/2020</TaskBDate>
+      <TaskEDate>2/21/2020</TaskEDate>
       <TaskDuration>7</TaskDuration>
       <TaskDurationUnit>days</TaskDurationUnit>
       <TaskColor>-16777216</TaskColor>
@@ -1717,8 +1718,8 @@
       <TaskKey>54</TaskKey>
       <SimilarTaskKey>0</SimilarTaskKey>
       <TaskName>Using DigitalOcean for Hosting</TaskName>
-      <TaskBDate>1/9/2020</TaskBDate>
-      <TaskEDate>1/10/2020</TaskEDate>
+      <TaskBDate>2/13/2020</TaskBDate>
+      <TaskEDate>2/14/2020</TaskEDate>
       <TaskDuration>2</TaskDuration>
       <TaskDurationUnit>days</TaskDurationUnit>
       <TaskStatusKey>0</TaskStatusKey>
@@ -1740,8 +1741,8 @@
       <TaskKey>73</TaskKey>
       <SimilarTaskKey>0</SimilarTaskKey>
       <TaskName>Review Task</TaskName>
-      <TaskBDate>1/13/2020</TaskBDate>
-      <TaskEDate>1/17/2020</TaskEDate>
+      <TaskBDate>2/17/2020</TaskBDate>
+      <TaskEDate>2/21/2020</TaskEDate>
       <TaskDuration>5</TaskDuration>
       <TaskDurationUnit>days</TaskDurationUnit>
       <TaskStatusKey>0</TaskStatusKey>
@@ -1763,9 +1764,9 @@
       <TaskKey>23</TaskKey>
       <SimilarTaskKey>0</SimilarTaskKey>
       <TaskName>Review Phase</TaskName>
-      <TaskBDate>2/10/2020</TaskBDate>
-      <TaskEDate>2/25/2020</TaskEDate>
-      <TaskDuration>12</TaskDuration>
+      <TaskBDate>2/24/2020</TaskBDate>
+      <TaskEDate>3/11/2020</TaskEDate>
+      <TaskDuration>13</TaskDuration>
       <TaskDurationUnit>days</TaskDurationUnit>
       <TaskColor>-16777216</TaskColor>
       <TaskStatusKey>0</TaskStatusKey>
@@ -1786,8 +1787,8 @@
       <TaskKey>55</TaskKey>
       <SimilarTaskKey>0</SimilarTaskKey>
       <TaskName>Check requirement to what developer have done. For OK delivery to client and Redo to Developer.</TaskName>
-      <TaskBDate>2/10/2020</TaskBDate>
-      <TaskEDate>2/11/2020</TaskEDate>
+      <TaskBDate>2/24/2020</TaskBDate>
+      <TaskEDate>2/25/2020</TaskEDate>
       <TaskDuration>2</TaskDuration>
       <TaskDurationUnit>days</TaskDurationUnit>
       <TaskStatusKey>0</TaskStatusKey>
@@ -1809,8 +1810,8 @@
       <TaskKey>88</TaskKey>
       <SimilarTaskKey>0</SimilarTaskKey>
       <TaskName>Test Client Controller (Home, Post, Page,...)</TaskName>
-      <TaskBDate>2/10/2020</TaskBDate>
-      <TaskEDate>2/21/2020</TaskEDate>
+      <TaskBDate>2/24/2020</TaskBDate>
+      <TaskEDate>3/6/2020</TaskEDate>
       <TaskDuration>10</TaskDuration>
       <TaskDurationUnit>days</TaskDurationUnit>
       <TaskStatusKey>0</TaskStatusKey>
@@ -1832,8 +1833,8 @@
       <TaskKey>89</TaskKey>
       <SimilarTaskKey>0</SimilarTaskKey>
       <TaskName>Test Admin Page(Dashboard, User, Comment, Setting, Category, Post, Page,...)</TaskName>
-      <TaskBDate>2/10/2020</TaskBDate>
-      <TaskEDate>2/21/2020</TaskEDate>
+      <TaskBDate>2/24/2020</TaskBDate>
+      <TaskEDate>3/6/2020</TaskEDate>
       <TaskDuration>10</TaskDuration>
       <TaskDurationUnit>days</TaskDurationUnit>
       <TaskStatusKey>0</TaskStatusKey>
@@ -1855,9 +1856,9 @@
       <TaskKey>74</TaskKey>
       <SimilarTaskKey>0</SimilarTaskKey>
       <TaskName>Review Task</TaskName>
-      <TaskBDate>2/24/2020</TaskBDate>
-      <TaskEDate>2/25/2020</TaskEDate>
-      <TaskDuration>2</TaskDuration>
+      <TaskBDate>3/9/2020</TaskBDate>
+      <TaskEDate>3/11/2020</TaskEDate>
+      <TaskDuration>3</TaskDuration>
       <TaskDurationUnit>days</TaskDurationUnit>
       <TaskStatusKey>0</TaskStatusKey>
       <TaskLink>pks:|Link|68</TaskLink>
@@ -1878,9 +1879,9 @@
       <TaskKey>7</TaskKey>
       <SimilarTaskKey>0</SimilarTaskKey>
       <TaskName>Training Phase</TaskName>
-      <TaskBDate>2/26/2020</TaskBDate>
-      <TaskEDate>2/28/2020</TaskEDate>
-      <TaskDuration>3</TaskDuration>
+      <TaskBDate>3/12/2020</TaskBDate>
+      <TaskEDate>3/18/2020</TaskEDate>
+      <TaskDuration>5</TaskDuration>
       <TaskDurationUnit>days</TaskDurationUnit>
       <TaskColor>-16777216</TaskColor>
       <TaskStatusKey>0</TaskStatusKey>
@@ -1901,9 +1902,9 @@
       <TaskKey>56</TaskKey>
       <SimilarTaskKey>0</SimilarTaskKey>
       <TaskName>Prepare document for client and tranning client.</TaskName>
-      <TaskBDate>2/26/2020</TaskBDate>
-      <TaskEDate>2/28/2020</TaskEDate>
-      <TaskDuration>3</TaskDuration>
+      <TaskBDate>3/12/2020</TaskBDate>
+      <TaskEDate>3/18/2020</TaskEDate>
+      <TaskDuration>5</TaskDuration>
       <TaskDurationUnit>days</TaskDurationUnit>
       <TaskStatusKey>0</TaskStatusKey>
       <TaskPredecessor />
@@ -1923,8 +1924,8 @@
       <TaskKey>10</TaskKey>
       <SimilarTaskKey>0</SimilarTaskKey>
       <TaskName>Maintenance Phase</TaskName>
-      <TaskBDate>3/2/2020</TaskBDate>
-      <TaskEDate>6/3/2020</TaskEDate>
+      <TaskBDate>3/19/2020</TaskBDate>
+      <TaskEDate>6/22/2020</TaskEDate>
       <TaskDuration>68</TaskDuration>
       <TaskDurationUnit>days</TaskDurationUnit>
       <TaskColor>-16777216</TaskColor>
@@ -1945,8 +1946,8 @@
       <TaskKey>57</TaskKey>
       <SimilarTaskKey>0</SimilarTaskKey>
       <TaskName>Fixed error for client during warrenty time.</TaskName>
-      <TaskBDate>3/2/2020</TaskBDate>
-      <TaskEDate>6/3/2020</TaskEDate>
+      <TaskBDate>3/19/2020</TaskBDate>
+      <TaskEDate>6/22/2020</TaskEDate>
       <TaskDuration>68</TaskDuration>
       <TaskDurationUnit>days</TaskDurationUnit>
       <TaskStatusKey>0</TaskStatusKey>
@@ -3366,6 +3367,7 @@
   <Calendar>
     <CalendarKey>0</CalendarKey>
     <NonWorkingDays>0:0;6:6</NonWorkingDays>
+    <Holiday>1/1/2020:1/1/2020;1/7/2020:1/7/2020</Holiday>
+    <ExceptionDay />
   </Calendar>
-</Project>
 </Project>
