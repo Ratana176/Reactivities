@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Application.Activities;
 using Domain;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Persistence;
 
 namespace API.Controllers
 {
@@ -11,16 +11,17 @@ namespace API.Controllers
     [ApiController]
     public class ActivityController : ControllerBase
     {
-        private readonly DataContext _context;
-        public ActivityController(DataContext context)
+        private readonly IMediator _mediator;
+
+        public ActivityController(IMediator  mediator)
         {
-            _context = context;
+            _mediator = mediator;
         }
 
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Activity>>> Get()
         {
-            return await _context.Activities.ToListAsync();
+            return await _mediator.Send(new List.Query());
         }
     }
 }
