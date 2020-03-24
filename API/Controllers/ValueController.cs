@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using Domain;
 using Microsoft.AspNetCore.Http;
@@ -26,14 +25,14 @@ namespace API.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Value>>> Get()
         {
-            var values = await _context.values.ToListAsync();
+            var values = await _context.Values.ToListAsync();
             return Ok(values);
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<IEnumerable<Value>>> Get (int id)
+        public async Task<ActionResult<IEnumerable<Value>>> Get(int id)
         {
-            var values = await _context.values.SingleOrDefaultAsync(c => c.Id == id);
+            var values = await _context.Values.SingleOrDefaultAsync(c => c.Id == id);
             return Ok(values);
         }
 
