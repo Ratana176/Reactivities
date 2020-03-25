@@ -57,28 +57,6 @@ namespace Persistence.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Values");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Name = "Value 1"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            Name = "Value 2"
-                        },
-                        new
-                        {
-                            Id = 3,
-                            Name = "Value 3"
-                        },
-                        new
-                        {
-                            Id = 4,
-                            Name = "Value 4"
-                        });
                 });
 #pragma warning restore 612, 618
         }

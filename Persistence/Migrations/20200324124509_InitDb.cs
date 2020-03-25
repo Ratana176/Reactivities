@@ -3,23 +3,10 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Persistence.Migrations
 {
-    public partial class InitialActivities : Migration
+    public partial class InitDb : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropPrimaryKey(
-                name: "PK_values",
-                table: "values");
-
-            migrationBuilder.RenameTable(
-                name: "values",
-                newName: "Values");
-
-            migrationBuilder.AddPrimaryKey(
-                name: "PK_Values",
-                table: "Values",
-                column: "Id");
-
             migrationBuilder.CreateTable(
                 name: "Activities",
                 columns: table => new
@@ -36,6 +23,19 @@ namespace Persistence.Migrations
                 {
                     table.PrimaryKey("PK_Activities", x => x.Id);
                 });
+
+            migrationBuilder.CreateTable(
+                name: "Values",
+                columns: table => new
+                {
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("Sqlite:Autoincrement", true),
+                    Name = table.Column<string>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Values", x => x.Id);
+                });
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
@@ -43,18 +43,8 @@ namespace Persistence.Migrations
             migrationBuilder.DropTable(
                 name: "Activities");
 
-            migrationBuilder.DropPrimaryKey(
-                name: "PK_Values",
-                table: "Values");
-
-            migrationBuilder.RenameTable(
-                name: "Values",
-                newName: "values");
-
-            migrationBuilder.AddPrimaryKey(
-                name: "PK_values",
-                table: "values",
-                column: "Id");
+            migrationBuilder.DropTable(
+                name: "Values");
         }
     }
 }
