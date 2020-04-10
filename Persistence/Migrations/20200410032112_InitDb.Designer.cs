@@ -9,7 +9,7 @@ using Persistence;
 namespace Persistence.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20200324124509_InitDb")]
+    [Migration("20200410032112_InitDb")]
     partial class InitDb
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -59,6 +59,28 @@ namespace Persistence.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Values");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Name = "Value 1"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Name = "Value 2"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Name = "Value 3"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Name = "Value 4"
+                        });
                 });
 #pragma warning restore 612, 618
         }
