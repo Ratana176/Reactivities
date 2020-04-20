@@ -12,8 +12,15 @@ const App = () => {
   const [activities, setActivities] = useState<IActivity[]>([]);
   const [selectedActivity, setSelectedActivity] = useState<IActivity | null>(null);
 
+  const [editMode, setEditMode] = useState(false);
+
   const handleSelectActivity = (id: string) => {
     setSelectedActivity(activities.filter(a => a.id === id)[0]);
+  }
+
+  const handleCreateForm = () => {
+    setSelectedActivity(null);
+    setEditMode(true);
   }
 
   useEffect(() => {
@@ -27,12 +34,16 @@ const App = () => {
 
   return (
     <Fragment>
-      <NavBar />
+      <NavBar openCreateForm={handleCreateForm} />
       <Container style = {{marginTop: '7em'}}>
         <ActivityDashboard 
           activities = {activities} 
           selectActivity = {handleSelectActivity}
-          selectedActivity = {selectedActivity} />
+          selectedActivity = {selectedActivity} 
+          editMode={editMode}
+          setEditMode={setEditMode}
+          setSelectedActivity={setSelectedActivity}
+          />
       </Container>
     </Fragment>
   );
